@@ -79,6 +79,7 @@ Developed by:GOKUL J
 RegisterNumber:212222230038 
 */
 ### Encoder:
+```
 module encoder (d0,d1,d2,d3,d4,d5,d6,d7,x,y,z);
 input d0,d1,d2,d3,d4,d5,d6,d7;
 output x,y,z;
@@ -86,8 +87,10 @@ or (x,d4,d5,d6,d7);
 or (y,d2,d3,d5,d7);
 or (z,d1,d3,d5,d7);
 endmodule
+```
 
 ### Decoder:
+```
 module decoder (a0,a1,a2,y0,y1,y2,y3,y4,y5,y6,y7);
 input a0,a1,a2;
 output y0,y1,y2,y3,y4,y5,y6,y7;
@@ -104,6 +107,7 @@ and (y5,a0,a1bar,a2);
 and (y6,a0,a1,a2bar);
 and (y7,a0,a1,a2);
 endmodule
+```
 
 ### RTL LOGIC  
 ### Encoder:
