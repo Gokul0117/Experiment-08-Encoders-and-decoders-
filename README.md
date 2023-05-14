@@ -73,11 +73,11 @@ End the module.
 
 
 ### PROGRAM 
-/*
+```
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
 Developed by:GOKUL J 
 RegisterNumber:212222230038 
-*/
+```
 ### Encoder:
 ```
 module encoder (d0,d1,d2,d3,d4,d5,d6,d7,x,y,z);
